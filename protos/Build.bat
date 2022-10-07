@@ -1,0 +1,1 @@
+tools\protobuf\protoc.exe --grpc_out=.\ --plugin=protoc-gen-grpc=.\tools\grpc\grpc_cpp_plugin.exe  --cpp_out=.\ .\helloWorld.proto
