@@ -17,8 +17,7 @@ gRPC依赖库安装
 
 ```
 vcpkg install grpc grpc:x64-windows
-vcpkg install protobuf protobuf:x64-windows
-vcpkg install protobuf[zlib] protobuf[zlib]:x64-windows
+vcpkg install grpc[codegen]:x86-windows --recurse  #win32 平台gRPC开发环境
 ```
 
 使Visual Studio开发gRPC不需要配置include等环境，请运行下面行命令

@@ -119,11 +119,11 @@ int main(int argc, char** argv) {
   }
   GreeterClient greeter(
       grpc::CreateChannel(target_str, grpc::InsecureChannelCredentials()));
-  std::string user("abc1");
+  std::string user("World 1");
   std::string reply = greeter.SayHello(user);
   std::cout << "Greeter received: " << reply << std::endl;
 
-  user = "abc2";
+  user = "World 2";
   reply = greeter.SayHelloAgain(user);
   std::cout << "Greeter received: " << reply << std::endl;
 
