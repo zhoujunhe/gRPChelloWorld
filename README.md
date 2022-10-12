@@ -6,6 +6,7 @@
 打开项目编译之前，需要使用vcpkg安装本地gRPC的开发环境，对于vcpkg不懂人，请自行找资料理解
 ## vcpkg安装
 ```
+git clone --recursive https://github.com/zhoujunhe/gRPChelloWorld.git
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
 bootstrap-vcpkg.bat

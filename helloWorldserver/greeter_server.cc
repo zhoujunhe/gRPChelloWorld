@@ -27,7 +27,7 @@
 #ifdef BAZEL_BUILD
 #include "examples/protos/helloworld.grpc.pb.h"
 #else
-#include "../protos/helloWorld.grpc.pb.h"
+#include "../ProtoBuf/helloworld/helloWorld.grpc.pb.h"
 #endif
 
 using grpc::Server;

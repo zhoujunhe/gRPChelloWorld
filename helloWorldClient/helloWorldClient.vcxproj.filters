@@ -18,18 +18,18 @@
     <ClCompile Include="greeter_client.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\protos\helloWorld.grpc.pb.cc">
+    <ClCompile Include="..\ProtoBuf\helloworld\helloWorld.grpc.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\protos\helloWorld.pb.cc">
+    <ClCompile Include="..\ProtoBuf\helloworld\helloWorld.pb.cc">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\protos\helloWorld.grpc.pb.h">
+    <ClInclude Include="..\ProtoBuf\helloworld\helloWorld.grpc.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\protos\helloWorld.pb.h">
+    <ClInclude Include="..\ProtoBuf\helloworld\helloWorld.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

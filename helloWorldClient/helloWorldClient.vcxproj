@@ -143,13 +143,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\protos\helloWorld.grpc.pb.cc" />
-    <ClCompile Include="..\protos\helloWorld.pb.cc" />
+    <ClCompile Include="..\ProtoBuf\helloworld\helloWorld.grpc.pb.cc" />
+    <ClCompile Include="..\ProtoBuf\helloworld\helloWorld.pb.cc" />
     <ClCompile Include="greeter_client.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\protos\helloWorld.grpc.pb.h" />
-    <ClInclude Include="..\protos\helloWorld.pb.h" />
+    <ClInclude Include="..\ProtoBuf\helloworld\helloWorld.grpc.pb.h" />
+    <ClInclude Include="..\ProtoBuf\helloworld\helloWorld.pb.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

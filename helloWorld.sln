@@ -7,15 +7,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloWorldserver", "helloWo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloWorldClient", "helloWorldClient\helloWorldClient.vcxproj", "{BE732D9F-327D-4954-AC28-429718476B51}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{475579DD-031C-4AE5-9373-70A9EF12F73C}"
-	ProjectSection(SolutionItems) = preProject
-		protos\Build.bat = protos\Build.bat
-		protos\helloworld.proto = protos\helloworld.proto
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{186B7EBC-54ED-483C-B198-AC6C10621757}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protobuf", "protobuf", "{3C3FF6E7-8C2F-400D-9C54-722723F82328}"
+	ProjectSection(SolutionItems) = preProject
+		ProtoBuf\helloworld\Build.bat = ProtoBuf\helloworld\Build.bat
 	EndProjectSection
 EndProject
 Global
