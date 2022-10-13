@@ -15,6 +15,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protobuf", "protobuf", "{3C3FF6E7-8C2F-400D-9C54-722723F82328}"
 	ProjectSection(SolutionItems) = preProject
 		ProtoBuf\helloworld\Build.bat = ProtoBuf\helloworld\Build.bat
+		ProtoBuf\helloworld\helloworld.proto = ProtoBuf\helloworld\helloworld.proto
 	EndProjectSection
 EndProject
 Global
